@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- AGM M7 -->
+  <project path="device/agm/m7" name="itsvic-dev/android_device_agm_m7" remote="github" revision="lineage-24.0" />
+  <project path="kernel/agm/m7" name="itsvic-dev/linux-mt6739" remote="github" revision="linux-7.2" />
+  <project path="vendor/agm/m7" name="itsvic-dev/agm-m7-firmware" remote="github" revision="main" />
+  <project path="external/ccci-fsd" name="itsvic-dev/ccci-fsd" remote="github" revision="main" />
+  <project path="external/mesa" name="itsvic-dev/mesa" remote="github" revision="agm-m7-android" />
+
+  <!-- LineageOS mainline -->
+  <project path="device/mainline/common" name="LineageOS/android_device_mainline_common" remote="github" />
+  <project path="hardware/mainline/common" name="LineageOS/android_hardware_mainline_common" remote="github" />
+  <project path="vendor/mainline" name="LineageOS/android_vendor_mainline" remote="github" />
+  <project path="kernel/mainline/configs" name="LineageOS/android_kernel_mainline_configs" remote="github" />
+  <project path="prebuilts/bootmgr" name="LineageOS/android_prebuilts_bootmgr" remote="github" />
+  <project path="prebuilts/mesa-build-dep" name="LineageOS/android_prebuilts_mesa-build-dep" remote="github" />
+  <project path="external/alsa-lib" name="LineageOS/android_external_alsa-lib" remote="github" />
+  <project path="external/alsa-ucm-conf" name="LineageOS/android_external_alsa-ucm-conf" remote="github" />
+  <project path="external/drm_hwcomposer-upstream" name="LineageOS/android_external_drm_hwcomposer-upstream" remote="github" />
+  <project path="external/libdisplay-info-upstream" name="LineageOS/android_external_libdisplay-info-upstream" remote="github" />
+  <project path="external/linux-firmware-mainline" name="LineageOS/android_external_linux-firmware-mainline" remote="github" />
+  <project path="external/minigbm-upstream" name="LineageOS/android_external_minigbm-upstream" remote="github" />
+</manifest>
